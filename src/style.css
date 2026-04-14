@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
-:root {
+@theme {
   --font-sans: 'Alexandria', sans-serif;
 }
 
 body {
-  font-family: 'Alexandria', sans-serif;
+  font-family: alexandria, sans-serif;
 }
