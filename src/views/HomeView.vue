@@ -137,11 +137,11 @@
         </div>
       </div>
 
-      <!-- Item 3: Tall Card -->
+      <!-- Item 3: granja Card -->
       <div class="
           col-span-6 row-span-3
           md:col-span-4 md:row-span-4
-          bg-indigo-500
+          bg-[#FFD93C]
           rounded-0 p-4
           overflow-hidden
 
@@ -150,13 +150,18 @@
           transition-all duration-300 ease-in-out
           cursor-pointer group
         ">
-        <h1 class="text-xl text-white font-black tracking-tight">Sky Large</h1>
+        <img src="/imgs/logo-granja-dark.svg" alt="LOGO SKY" class="
+            w-auto h-6
+            sm:w-auto sm:h-12
+            mb-auto mt-1 mr-auto ml-1
+            group-hover:invert group-hover:brightness-0
+          " />
       </div>
-      <!-- Item 4: Square Card -->
+      <!-- Item 4: blumen Card -->
       <div class="
           col-span-4 row-span-5
           md:col-span-4 md:row-span-2
-          bg-[#07CB7D]
+          bg-[#C8F069]
           rounded-0 p-4
           overflow-hidden
 
@@ -165,14 +170,21 @@
           transition-all duration-300 ease-in-out
           cursor-pointer group
         ">
-        <h1 class="text-xl text-white font-black tracking-tight">Sky Large</h1>
+        <img src="/imgs/logo-blumen-dark.svg"
+          alt="LOGO blumen"
+          class="
+            w-auto h-6
+            sm:w-auto sm:h-10
+            mb-auto mt-1 mr-auto ml-1
+            group-hover:invert group-hover:brightness-0
+          " />
       </div>
 
       <!-- Item 5: Small Card -->
       <div class="
           col-span-4 row-span-6
           md:col-span-4 md:row-span-6
-          bg-pink-500
+          bg-[#C8F069]
           rounded-0 p-4
           overflow-hidden
 
@@ -181,7 +193,14 @@
           transition-all duration-300 ease-in-out
           cursor-pointer group
         ">
-        <h1 class="text-xl text-white font-black tracking-tight">Sky Large</h1>
+        <img src="/imgs/logo-blumen-dark.svg"
+          alt="LOGO blumen"
+          class="
+            w-auto h-6
+            sm:w-auto sm:h-10
+            mb-auto mt-1 mr-auto ml-1
+            group-hover:invert group-hover:brightness-0
+          " />
       </div>
 
       <!-- Item 6:fireweb Card -->
@@ -262,12 +281,12 @@
           transition-all duration-300 ease-in-out
           cursor-pointer group
         ">
-        <h1 class="text-xl text-white font-black tracking-tight">Sky Large</h1>
+        <h1 class="text-xl text-white font-black tracking-tight"></h1>
       </div>
       <div class="
           col-span-4 row-span-3
           sm:col-span-3 sm:row-span-4
-          bg-[#C8F069]
+          bg-[#F83B66]
           rounded-0 p-4
           overflow-hidden
 
@@ -276,7 +295,12 @@
           transition-all duration-300 ease-in-out
           cursor-pointer group
         ">
-        <h1 class="text-xl text-white font-black tracking-tight">Sky Large</h1>
+        <img src="/imgs/logo-digi-dark.svg" alt="LOGO fireweb" class="
+            w-auto h-6
+            sm:w-auto sm:h-10
+            mb-auto mt-1 mr-auto ml-1
+            group-hover:invert group-hover:brightness-0
+        " />
       </div>
     </div>
   </div>
