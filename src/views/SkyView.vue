@@ -124,7 +124,8 @@
             Our iconography is rooted in these core elements, then enhanced through scale, contrast,<br> and style to
             communicate clearly and express character. </p>
         </div>
-        <div class="w-full h-[140px] absolute right-0 -bottom-90 border-b border-t border-[#0A77F3]">
+
+        <div class="w-full h-[140px] absolute right-0 -bottom-80 border-b border-t border-[#0A77F3]">
           <div class="absolute -top-10 border-t border-[#0A77F3] w-full pl-36 pr-46 flex items-center justify-between">
             <p class="text-sm font-regular text-[#0a77f3] px-2.5 mt-3">
               Files Icons
@@ -147,7 +148,8 @@
             <img src="/imgs/spot-sky/icon-xls.svg" alt="LOGO SKY" class="h-16" />
           </div>
         </div>
-        <div class="w-full h-[120px] absolute right-0 -bottom-130 border-b border-t border-[#0A77F3]">
+
+        <div class="w-full h-[120px] absolute right-0 -bottom-120 border-b border-t border-[#0A77F3]">
           <div class="absolute -top-10 w-full pl-36 pr-46 flex items-center justify-between">
             <p class="text-sm font-regular text-[#0a77f3] px-2.5 mt-3">
               Spot Icons
@@ -172,7 +174,7 @@
           </div>
         </div>
 
-        <div class="w-full h-[80px] absolute right-0 -bottom-160 border-b border-t border-[#0A77F3]">
+        <div class="w-full h-[80px] absolute right-0 -bottom-150 border-b border-t border-[#0A77F3]">
           <div class="absolute -top-10 w-full pl-36 pr-46 flex items-center justify-between">
             <p class="text-sm font-regular text-[#0a77f3] px-2.5 mt-3">
               UI Icons
@@ -222,20 +224,95 @@
               <img src="/imgs/spot-sky/icon-download.svg" alt="LOGO SKY" class="h-5" />
               <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">Download</h2>
             </span>
-
           </div>
         </div>
+      </div>
+    </section>
+    <section ref="section5" class="min-h-screen w-full  flex justify-end items-start relative">
+       <!-- Línea vertical izquierda -->
+       <div ref="sec4LineL" class="absolute top-0 bottom-0 w-[1px] bg-[#0A77F3] left-48"></div>
+      <div ref="sec4LineL" class="absolute top-0 bottom-0 w-[1px] bg-[#0A77F3] right-44"></div>
+      <div class="relative w-[calc(100%-3rem)] h-[84px] flex items-center pt-30 border-b border-t border-[#0A77F3]">
+        <div ref="sec4Text1" class="absolute left-36 top-30 flex flex-col gap-8 items-start w-full pb-26">
+        <h2 class="text-5xl font-semibold text-[#f5f5f5] border-b border-[#0A77F3] w-full">
+            Icons visually support<br>our brand across surfaces
+          </h2>
+          </div>
+          <div class="w-full h-full absolute right-0 top-140 flex items-center justify-center gap-20">
+        <img src="/imgs/screen.png" alt="LOGO SKY" class="w-[600px] rounded-xl" />
+        <img src="/imgs/screen2.png" alt="LOGO SKY" class="w-[450px]" />
+          </div>
+      </div>
+    </section>
+    <section ref="section5" class="min-h-screen w-full  flex justify-end items-start relative  bg-[#1d1d1d]">
+      <div ref="sec4LineL" class="absolute top-0 bottom-0 w-[1px] bg-[#0A77F3] left-48 h-30"></div>
+      <div ref="sec4LineL" class="absolute top-0 bottom-0 w-[1px] bg-[#0A77F3] right-44 h-30"></div>
+      <div class="relative w-[calc(100%-3rem)] h-screen w-full flex items-center mt-30 border-t border-[#0A77f3] ml-12">
+        <div ref="sec5Text1" class="flex flex-col gap-8 w-full  pl-48">
+        <h2 class="text-5xl font-semibold text-[#f5f5f5] w-auto text-left">
+            Planes are a core part <br>of the visual identity
+        </h2>
+        <p class="text-md font-light text-[#a3a3a3]">
+            They structure content and maintain hierarchy, clarity, and cohesion<br> across platforms and devices.</p>
+        </div>
+        <div class="absolute w-1/2 h-full right-0 flex items-center justify-center gap-20 pr-36">
+          <div :class="[
+            'relative bg-[#f5f5f5] rounded-2xl flex p-4 transition-all duration-500 ease-in-out overflow-hidden',
+            isHorizontal ? 'flex-row w-[900px] h-[420px]' : 'flex-col w-[600px] h-auto items-center gap-8'
+          ]">
+            <img src="/imgs/logo-tab2.svg" alt="LOGO SKY" class="absolute top-0 left-8 w-auto h-auto" />
+            
+            <img src="/imgs/menu.svg" alt="LOGO SKY" :class="[
+              'absolute w-auto h-auto transition-all duration-500 ease-in-out',
+              isHorizontal ? 'bottom-8 left-8' : 'top-60 right-10'
+            ]" />
+            <div :class="[
+              'flex items-center justify-center overflow-hidden rounded-xl transition-all duration-500 ease-in-out',
+              isHorizontal ? 'w-1/2 h-full' : 'w-full h-auto'
+            ]">
+              <img src="/imgs/sauce.png" alt="LOGO SKY" :class="[
+                'transition-all duration-500 ease-in-out',
+                isHorizontal ? 'w-full h-full object-cover' : 'w-full h-auto object-contain'
+              ]" />
+            </div>
+
+            <div :class="[
+              'flex flex-col gap-4 transition-all duration-500 ease-in-out',
+              isHorizontal ? 'w-1/2 justify-center px-10' : 'w-full justify-center'
+            ]">
+              <h1 :class="['text-5xl text-[#1d1d1d] transition-all duration-500 ease-in-out', isHorizontal ? 'text-center mt-30 mx-auto font-bold' : 'text-center font-semibold mt-10']">Keep what matters safe.</h1>
+              <h1 :class="['text-lg font-semibold text-[#0A77F3] transition-all duration-500 ease-in-out', isHorizontal ? 'text-center mb-4 mt-auto' : 'text-center mb-4 mt-12']">sky.digiapps.com.co</h1>
+            </div>
+          </div>
+          <button
+            @click="isHorizontal = !isHorizontal"
+            :title="isHorizontal ? 'Cambiar a vertical' : 'Cambiar a horizontal'"
+            aria-label="Cambiar orientación"
+            class="absolute top-36 right-16 p-2 bg-[#f5f5f5] rounded-2xl hover:bg-[#f5f5f5]/80 transition-colors"
+          >
+            <img :src="toggleIcon" alt="Cambiar orientación" class="w-8 h-8" />
+          </button>
+        </div>  
       </div>
     </section>
   </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
+// Cambia solo el nombre de estos imports cuando tengas tus iconos listos:
+// import iconHorizontal from '/imgs/tu-icono-horizontal.svg'
+// import iconVertical from '/imgs/tu-icono-vertical.svg'
+import iconHorizontal from '/icons/icon-vertical.svg'
+import iconVertical from '/icons/icon-horizontal.svg'
+
 gsap.registerPlugin(ScrollTrigger)
+
+const isHorizontal = ref(false)
+const toggleIcon = computed(() => isHorizontal.value ? iconHorizontal : iconVertical)
 
 const section1 = ref<HTMLElement | null>(null)
 const section2 = ref<HTMLElement | null>(null)
