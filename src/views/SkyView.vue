@@ -174,27 +174,28 @@ const sec3Nave = ref<HTMLImageElement | null>(null)
 const sec3Card = ref<HTMLElement | null>(null)
 
 // Slot-machine scramble: cicla chars al azar antes de aterrizar en el correcto
-function scrambleLetter(span: HTMLSpanElement, finalChar: string, delayMs: number) {
-  const pool = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&*?0123456789'
-  const totalMs = 750
-  const frameMs = 45
-  setTimeout(() => {
-    let elapsed = 0
-    const timer = setInterval(() => {
-      elapsed += frameMs
-      const progress = elapsed / totalMs
-      if (progress >= 1) {
-        clearInterval(timer)
-        span.textContent = finalChar
-      } else {
-        // Al inicio casi siempre random, al final casi siempre correcto
-        span.textContent = Math.random() > progress * 0.75
-          ? pool[Math.floor(Math.random() * pool.length)]
-          : finalChar
-      }
-    }, frameMs)
-  }, delayMs)
-}
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// function scrambleLetter(span: HTMLSpanElement, finalChar: string, delayMs: number) {
+//   const pool = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&*?0123456789'
+//   const totalMs = 750
+//   const frameMs = 45
+//   setTimeout(() => {
+//     let elapsed = 0
+//     const timer = setInterval(() => {
+//       elapsed += frameMs
+//       const progress = elapsed / totalMs
+//       if (progress >= 1) {
+//         clearInterval(timer)
+//         span.textContent = finalChar
+//       } else {
+//         // Al inicio casi siempre random, al final casi siempre correcto
+//         span.textContent = Math.random() > progress * 0.75
+//           ? pool[Math.floor(Math.random() * pool.length)]
+//           : finalChar
+//       }
+//     }, frameMs)
+//   }, delayMs)
+// }
 
 onMounted(() => {
   const els = {

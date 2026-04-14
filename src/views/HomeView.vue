@@ -288,9 +288,9 @@ import {
   reactive,
   onMounted,
 } from 'vue';
-import { useRouter } from 'vue-router';
+// import { useRouter } from 'vue-router';
 
-const router = useRouter();
+// const router = useRouter();
 
 const speedMultiplier = ref(0);
 const HOVER_MULTIPLIER = 1;
