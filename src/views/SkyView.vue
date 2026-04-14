@@ -116,7 +116,7 @@
       <div ref="sec4LineL" class="absolute top-0 bottom-0 w-[1px] bg-[#0A77F3] left-48"></div>
       <div ref="sec4LineR" class="absolute top-0 bottom-0 w-[1px] bg-[#0A77F3] right-44"></div>
       <div class="relative w-[calc(100%-3rem)] h-[84px] flex items-center border-b border-t border-[#0A77F3]">
-        <div ref="sec4Text1" class="absolute left-36 -top-2 flex flex-col gap-8 items-start w-full pb-36">
+        <div ref="sec4Text1" class="absolute left-36 -top-2 flex flex-col gap-8 items-start w-full pb-26">
           <h2 class="text-5xl font-semibold text-[#1d1d1d]">
             Effective icons are clear,<br>intuitive, and easy to scale.
           </h2>
@@ -124,12 +124,106 @@
             Our iconography is rooted in these core elements, then enhanced through scale, contrast,<br> and style to
             communicate clearly and express character. </p>
         </div>
-        <div class="w-full h-full absolute right-0 -bottom-78 border-b border-t border-[#0A77F3]">
-          <div class="h-full bg-[#D9D9D9]/50 absolute right-0 left-36 right-44 border-l border-r border-[#0A77F3]">
+        <div class="w-full h-[140px] absolute right-0 -bottom-90 border-b border-t border-[#0A77F3]">
+          <div class="absolute -top-10 border-t border-[#0A77F3] w-full pl-36 pr-46 flex items-center justify-between">
+            <p class="text-sm font-regular text-[#0a77f3] px-2.5 mt-3">
+              Files Icons
+            </p>
+            <p class="text-sm font-regular text-[#0a77f3] px-2.5 mt-3">
+              120 x 120px
+            </p>
           </div>
+          <div class="h-full bg-[#D9D9D9]/30 absolute right-0 left-36 right-44 top-0 border-l border-r border-[#0A77F3] flex items-center justify-between px-12">
+            <img src="/imgs/spot-sky/icon-file.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-png.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-jpg.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-svg.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-mp3.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-video.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-zip.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-pdf.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-doc.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-ppt.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-xls.svg" alt="LOGO SKY" class="h-16" />
+          </div>
+        </div>
+        <div class="w-full h-[120px] absolute right-0 -bottom-130 border-b border-t border-[#0A77F3]">
+          <div class="absolute -top-10 w-full pl-36 pr-46 flex items-center justify-between">
+            <p class="text-sm font-regular text-[#0a77f3] px-2.5 mt-3">
+              Spot Icons
+            </p>
+            <p class="text-sm font-regular text-[#0a77f3] px-2.5 mt-3">
+              64 x 64px
+            </p>
+          </div>
+          <div class="h-full bg-[#D9D9D9]/40 absolute right-0 left-36 right-44 top-0 border-l border-r border-[#0A77F3] flex items-center justify-between px-12">
+            <img src="/imgs/spot-sky/icon-cloud.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-star.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-sound.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-eye.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-mail.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-folder.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-isla2.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-isla.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-lock.svg" alt="LOGO SKY" class="h-16" />
+            <img src="/imgs/spot-sky/icon-sun.svg" alt="LOGO SKY" class="h-14" />
+            <img src="/imgs/spot-sky/icon-moon.svg" alt="LOGO SKY" class="h-14" />
+            <img src="/imgs/spot-sky/icon-warning.svg" alt="LOGO SKY" class="h-14" />
+          </div>
+        </div>
 
+        <div class="w-full h-[80px] absolute right-0 -bottom-160 border-b border-t border-[#0A77F3]">
+          <div class="absolute -top-10 w-full pl-36 pr-46 flex items-center justify-between">
+            <p class="text-sm font-regular text-[#0a77f3] px-2.5 mt-3">
+              UI Icons
+            </p>
+            <p class="text-sm font-regular text-[#0a77f3] px-2.5 mt-3">
+              24 x 24px
+            </p>
+          </div>
+          <div class="h-full bg-[#D9D9D9]/60 absolute right-0 left-36 right-44 top-0 border-l border-r border-[#0A77F3] flex items-center justify-between px-10">
+            <span class="flex flex-row items-center gap-2 bg-[#f5f5f5] px-3 py-2 rounded-2xl">
+              <img src="/imgs/spot-sky/icon-recover.svg" alt="LOGO SKY" class="h-6" />
+              <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">Recover</h2>
+            </span>
+            <span class="flex flex-row items-center gap-2 bg-[#f5f5f5] px-3 py-2 rounded-2xl">
+              <img src="/imgs/spot-sky/icon-delete.svg" alt="LOGO SKY" class="h-6" />
+              <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">Delete</h2>
+            </span>
+            <span class="flex flex-row items-center gap-2 bg-[#f5f5f5] px-3 py-2 rounded-2xl">
+              <img src="/imgs/spot-sky/icon-edit.svg" alt="LOGO SKY" class="h-6" />
+              <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">Rename</h2>
+            </span>
+            <span class="flex flex-row items-center gap-2 bg-[#f5f5f5] px-3 py-2 rounded-2xl">
+              <img src="/imgs/spot-sky/icon-clip.svg" alt="LOGO SKY" class="h-6" />
+              <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">Copy link</h2>
+            </span>
+            <span class="flex flex-row items-center gap-2 bg-[#f5f5f5] px-3 py-2 rounded-2xl">
+              <img src="/imgs/spot-sky/icon-folder.svg" alt="LOGO SKY" class="h-6" />
+              <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">New folder</h2>
+            </span>
+            <span class="flex flex-row items-center gap-2 bg-[#f5f5f5] px-3 py-2 rounded-2xl">
+              <img src="/imgs/spot-sky/icon-star.svg" alt="LOGO SKY" class="h-6" />
+              <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">Favorite</h2>
+            </span>
+            <span class="flex flex-row items-center gap-2 bg-[#f5f5f5] px-3 py-2 rounded-2xl">
+              <img src="/imgs/spot-sky/icon-folder2.svg" alt="LOGO SKY" class="h-6" />
+              <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">Move to folder</h2>
+            </span>
+            <span class="flex flex-row items-center gap-2 bg-[#f5f5f5] px-3 py-2 rounded-2xl">
+              <img src="/imgs/spot-sky/icon-eye.svg" alt="LOGO SKY" class="h-6" />
+              <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">Preview</h2>
+            </span>
+            <span class="flex flex-row items-center gap-2 bg-[#f5f5f5] px-3 py-2 rounded-2xl">
+              <img src="/imgs/spot-sky/icon-folder2.svg" alt="LOGO SKY" class="h-6" />
+              <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">Upload</h2>
+            </span>
+            <span class="flex flex-row items-center gap-2 bg-[#f5f5f5] px-3 py-2 rounded-2xl">
+              <img src="/imgs/spot-sky/icon-download.svg" alt="LOGO SKY" class="h-5" />
+              <h2 class="text-md mt-1 font-medium text-[#1d1d1d]">Download</h2>
+            </span>
 
-
+          </div>
         </div>
       </div>
     </section>

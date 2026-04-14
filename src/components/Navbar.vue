@@ -1,34 +1,33 @@
 <template>
   <nav class="
-    fixed inset-0 left-0 z-50
+    fixed inset-0 sm:left-0 z-50 bottom-0
+    flex sm:flex-col
     items-center justify-between
-    w-12 h-full
-    flex flex-col
-    py-8
-    border-r border-[#0A77F3]
+    w-full h-12 flex-row
+    border-b
+    px-0 py-0
+    sm:w-12 sm:h-full
+    sm:py-8 sm:px-0
+    sm:border-r border-[#0A77F3]
     transition-all duration-300" :style="{ borderColor: routeColor }">
-    <!-- Dynamic Project Label -->
-    <span class="-rotate-90  font-regular tracking-widest text-md whitespace-nowrap mb-4"
-      :style="{ color: routeColor }">
-      {{ currentProjectName }}
-    </span>
 
     <!-- Home Button -->
-    <router-link to="/" class="flex items-center justify-center w-12 h-12 transition-all duration-500"
+    <router-link to="/" class="flex items-center justify-center w-12 h-12 px-4 my-auto transition-all duration-500"
       :style="{ backgroundColor: routeColor }">
       <i class="fa-solid fa-ellipsis text-white"></i>
     </router-link>
 
     <!-- External Link -->
     <a :href="'https://' + currentProjectUrl" target="_blank" class="
-        font-regular text-md
+        font-regular sm:text-md text-xs text-center mr-4 sm:mr-0
         hover:text-white
         hover:underline
         cursor-pointer
-        -rotate-90
+        rotate-0
+        sm:-rotate-90
         whitespace-nowrap
         block
-        w-0
+        sm:w-0 w-full
       " :style="{ color: routeColor }">
       {{ currentProjectUrl }}
     </a>
