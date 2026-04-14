@@ -1,0 +1,12 @@
+<template>
+  <div class="min-h-screen w-screen">
+    <Navbar v-if="$route.meta.showNavbar" />
+    <router-view />
+  </div>
+</template>
+
+<script setup lang="ts">
+import Navbar from './components/Navbar.vue';
+</script>
+
+<style></style>

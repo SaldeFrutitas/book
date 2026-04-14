@@ -1,0 +1,27 @@
+{
+  "name": "book",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
+    "gsap": "^3.15.0",
+    "vue": "^3.5.12",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8"
+  }
+}
