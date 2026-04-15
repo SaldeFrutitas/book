@@ -1,34 +1,62 @@
 <template>
-  <nav class="
-    fixed inset-0 sm:left-0 z-50 bottom-0
-    flex sm:flex-col
-    items-center justify-between
-    w-full h-12 flex-row
-    border-b
-    px-0 py-0
-    sm:w-12 sm:h-full
-    sm:py-8 sm:px-0
-    sm:border-r border-[#0A77F3]
-    transition-all duration-300" :style="{ borderColor: routeColor }">
+  <nav
+    class="
+      fixed bottom-0 left-0 right-0 z-50
+      flex sm:flex-col
+      items-center justify-between
+      w-full h-12 flex-row
+      px-0 py-0
+
+      sm:w-12 sm:h-full
+      sm:top-0 sm:left-0 sm:right-auto sm:bottom-auto
+      sm:py-8 sm:px-0
+      sm:border-r sm:border-[#0A77F3]
+      transition-all duration-300"
+    :style="{ borderColor: routeColor}
+    "
+  >
 
     <!-- Home Button -->
-    <router-link to="/" class="flex items-center justify-center w-12 h-12 px-4 my-auto transition-all duration-500"
-      :style="{ backgroundColor: routeColor }">
+    <router-link to="/"
+      class="
+        flex items-center justify-center
+        w-full h-12
+        px-4 my-auto
+
+        sm:w-12
+        transition-all duration-500"
+
+      :style="{ backgroundColor: routeColor }
+      "
+    >
       <i class="fa-solid fa-ellipsis text-white"></i>
     </router-link>
 
     <!-- External Link -->
-    <a :href="'https://' + currentProjectUrl" target="_blank" class="
-        font-regular sm:text-md text-xs text-center mr-4 sm:mr-0
+    <a
+      :href="'https://' + currentProjectUrl"
+      target="_blank"
+      class="
+        font-regular text-xs text-center
+        mr-4
+        rotate-0
+        hidden
+        
+        whitespace-nowrap
+        block cursor-pointer
+
         hover:text-white
         hover:underline
-        cursor-pointer
-        rotate-0
-        sm:-rotate-90
-        whitespace-nowrap
-        block
-        sm:w-0 w-full
-      " :style="{ color: routeColor }">
+
+        sm:w-0 w-full sm:mr-0
+        sm:text-md 
+        sm:-rotate-90 sm:inline-block
+        
+        transition-all duration-300
+      "
+      :style="{ color: routeColor }
+      "
+    >
       {{ currentProjectUrl }}
     </a>
   </nav>
@@ -57,9 +85,9 @@ const routeColor = computed(() => {
 });
 
 const currentProjectUrl = computed(() => {
-  if (route.path.startsWith('/skyview')) return 'sky.digiapps.com.co';
   if (route.path.startsWith('/firewebview')) return 'fireweb.digiapps.com.co';
   if (route.path.startsWith('/careview')) return 'care.digiapps.com.co';
+  if (route.path.startsWith('/skyview')) return 'sky.digiapps.com.co';
   return 'digiapps.com.co';
 });
 </script>
