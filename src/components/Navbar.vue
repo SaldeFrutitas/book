@@ -40,13 +40,13 @@ import { useRoute } from 'vue-router';
 
 const route = useRoute();
 
-const currentProjectName = computed(() => {
-  if (route.path.startsWith('/skyview')) return 'Sky';
-  if (route.path.startsWith('/firewebview')) return 'Fireweb';
-  if (route.path.startsWith('/careview')) return 'Care';
-  if (route.path.startsWith('/luview')) return 'Lü';
-  return 'Lü Dashboard';
-});
+// const currentProjectName = computed(() => {
+//   if (route.path.startsWith('/skyview')) return 'Sky';
+//   if (route.path.startsWith('/firewebview')) return 'Fireweb';
+//   if (route.path.startsWith('/careview')) return 'Care';
+//   if (route.path.startsWith('/luview')) return 'Lü';
+//   return 'Lü Dashboard';
+// });
 
 const routeColor = computed(() => {
   if (route.path.startsWith('/firewebview')) return '#FF242C';
